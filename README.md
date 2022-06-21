@@ -63,6 +63,7 @@ Cloud Databases
 Image Upload and Storage
 
 Maps and Geocoding
-----------------
+
 
 #Done for educational purposes, to enhance my skills on web development.
+----------------
