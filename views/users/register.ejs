@@ -1,0 +1,39 @@
+<% layout('layouts/boilerplate') %>
+<div class="container d-flex justify-content-center align-items-center mt-5 mb-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-3">
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+                <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FtcGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500" 
+                alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Register</h5>
+                    <form action="/register" method="POST" class="validatedForm" novalidate> 
+                        <div class="row mb-3">
+                            <label class="form-label" for="username">Username</Dabel>
+                            <input class="form-control" type="text" name="username" id="username" autofocus required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label class="form-label" for="email">Email</Dabel>
+                            <input class="form-control" type="email" name="email" id="email" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label class="form-label" for="username">Password</Dabel>
+                            <input class="form-control" type="password" name="password" id="password" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <button class="btn btn-success col-12"> Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
